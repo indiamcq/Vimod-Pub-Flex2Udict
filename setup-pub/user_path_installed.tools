@@ -1,0 +1,28 @@
+# user_installed_in_path.tools
+# =============================================================================
+# Tools found in the path
+# ------------------------------------------------------------------------------
+# Consistent Changes for Windows
+# http://www.sil.org/computing/catalog/show_software.asp?id=4
+ccw32
+
+# XMLstar is from http://xmlstar.sourceforge.net/
+xml
+# Binmay a HEX find and replace tool for binary and text files.
+# http://www.filewut.com/spages/pages/software/binmay/files/
+binmay
+# Various GNUwin32 tools for Windows http://gnuwin32.sourceforge.net/packages/coreutils.htm
+csplit
+uniq
+sort
+
+# Stream editor for RegEx changes http://gnuwin32.sourceforge.net/packages/sed.htm
+sed
+
+# Phonegap for creating Android Hybrid Apps.  http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html
+phonegap
+# java tools for Android from Java JRE
+keytool
+jarsigner
+# ant
+ant

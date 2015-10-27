@@ -1,0 +1,42 @@
+# vimod.variables
+# osversion xp win7 win8
+osversion=win7
+stacknumb=1
+cctpath=scripts\cct
+xsltpath=scripts\xslt
+# alternative path location of XSLTs
+altxsltpath=D:\All-SIL-Publishing\sfm-dict2web\scripts\xslt
+cctparam=-u -b -q -n
+varfile=setup\default-setup-%type%.TXT
+localvar=checked
+localhostpath=%htmlpath%
+defaultmenu=data\setup\project.menu
+# VimodPub key folders
+commontaskspath=tasks
+commonmenufolder=menus
+projectsetupfolder=setup
+# note 0 on the end of lettermaster is not used it is set as the stop menubefore letter
+stopmenubefore=0
+lettersmaster=abcdefghijklmnopqrstuvwxy1234567890
+stacksourcemaster=abcdefghijklmnopqrstuvwxyz1234567890
+gt=^>
+lt=^<
+hash=#
+squote='
+dquote="
+semicolon=;
+equal==
+utilityletter=0
+exitletter=z
+# java classpath additions and catalog resolver to handle xhtml11
+extendclasspath=tools\java\saxon9he.jar;tools\java\resolver.jar;tools\java
+loadcat=-Dxml.catalog.files
+cat=tools\java\cat\catalog.xml
+usecatalog1=-r:org.apache.xml.resolver.tools.CatalogResolver 
+usecatalog2=-x:org.apache.xml.resolver.tools.ResolvingXMLReader
+altjre=tools\jre7\bin\java.exe
+# android build variables
+defaultkeystorepath=D:\All-SIL-Publishing\vimod-pub\Android-keystore
+#spinoff default path
+defaultspinoffdir=C:\vimod-spinoff-project
+preset-proj-list=android-simplehtmlscr ID-epub2usfm u-dict

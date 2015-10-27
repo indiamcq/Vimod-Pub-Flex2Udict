@@ -1,0 +1,201 @@
+/* CSS Document 
+ISO.css
+Style the dictionary content
+*/
+
+/* Labels for fields */
+:before, :after { font-weight:normal; font-style: italic; font-size: 70%;}
+.exGroup:before {content: 'Example sentence'}
+.comma:after  { content: ', ';font-weight:bold;}
+.d {margin: 0 0 0 4px}
+.ms:before { content: 'Sense '}
+.ps:before { content: ''}
+.gl:before { content: ''}
+.g2:before { content: 'Tagalog '}
+.glGroup:before { content: 'Meaning '}
+.subject:before {content: 'Subject: '}
+.object:before {content: 'Object: '}
+.ld:after {content: ' Derivative'}
+.reGroup:before { content: 'Related word '}
+
+.rsGroup:before { content: 'Synonym '}
+
+.raGroup:before { content: 'Antonym '}
+
+.scGroup:before { content: '(See appendix '}
+.scGroup:after { content: ') '} 
+.sc:after { content: '; '}
+.ec:before { content: "Cultural Note ";}
+.co:before { content: "Meaning ";}
+.rtGroup:before { content: "(See ";}
+.rtGroup:after { content: ' for table) '}
+
+
+.rgGroup:before { content: 'See also '}
+.lsGroup:before { content: 'Saying '}
+.li:after { content: ' Idiom'}
+.va:before { content: 'Variant '}
+.senseafter:after { content: ' Sense '}
+.mr:before { content: 'Alternate form '}
+
+.iiGroup:before {content: 'Ilokano   '}
+.itGroup:before {content: 'Filipino   '}
+.ivGroup:before {content: 'Ivatan   '}
+.dc .d:before {content: 'from Ivatan '}
+.dc:before {content: '(';font-size: 100% ;}
+.dc:after {content: ')';font-size: 100% ;}
+.di .d:before {content: 'from Ilokano '}
+.di:before {content: '(';font-size: 100% ;}  
+.di:after {content: ')';font-size: 100% ;}
+.dj .d:before {content: 'from J '}
+.dj:before {content: '(';font-size: 100% ;}
+.dj:after {content: ')';font-size: 100% ;}
+.de .d:before {content: 'from English '}
+.de:before {content: '(';font-size: 100% ;}
+.de:after {content: ')';font-size: 100% ;}
+.ds .d:before {content: 'from Spanish '}
+.ds:before {content: '(';font-size: 100% ;}
+.ds:after {content: ')';font-size: 100% ;}
+.dch .d:before {content: 'from Chinese '}
+.dch:before {content: '(';font-size: 100% ;}
+.dch:after {content: ')';font-size: 100% ;}
+
+
+.eg:before { content: 'Grammar '}
+.es:before { content: 'Semantics '}
+.ad:before { content: ' + '}
+.ar .d:before {content: ' Archaic'; }
+.ar:before {content: '(';font-size: 100% ;}
+.ar:after {content: ')';font-size: 100% ;}
+.mb .d:before { content: 'Variant of '}
+.mb:before {content: '(';font-size: 100% ;}
+.mb:after {content: ')';font-size: 100% ;}
+.mr .d:before { content: 'Variant of '}
+.mr:before {content: '(';font-size: 100% ;}
+.mr:after {content: ')';font-size: 100% ;}
+.mo:before { content: 'Morphophonemics '}
+
+.rfGroup:before {content: '(from';font-size: 100% ;}
+.rfGroup:after {content: ')';font-size: 100% ;}
+.ro:before {content: 'Overlapping Synonym ';}
+
+.ode:after {content: ' Derivative'; font-size: 50%;}
+.ose:after {content: ' Saying'; font-size: 50%;}
+.oid:after {content: ' Idiom'; font-size: 50%;}
+.pn:before {content: 'Pronunciation';}
+
+.ps_afx:before { content: 'affix  ' ; font-size: 100% ;}
+.ps_cntc:before { content: 'contraction  ' ; font-size: 100% ;}
+.ps_cntrc:before { content: 'contraction  ' ; font-size: 100% ;}
+.ps_cntrc_neg:before { content: 'contraction negative  ' ; font-size: 100% ;}
+.ps_com:before { content: 'compound  ' ; font-size: 100% ;}
+.ps_comm:before { content: 'command  ' ; font-size: 100% ;}
+.ps_dei:before { content: 'deictic  ' ; font-size: 100% ;}
+.ps_excl:before { content: 'exclamation  ' ; font-size: 100% ;}
+.ps_exp:before { content: 'expression  ' ; font-size: 100% ;}
+.ps_ext:before { content: 'existential  ' ; font-size: 100% ;}
+.ps_intg:before { content: 'interrogative particle  ' ; font-size: 100% ;}
+.ps_lk:before { content: 'linker  ' ; font-size: 100% ;}
+.ps_lmt:before { content: 'limitizer  ' ; font-size: 100% ;}
+.ps_mk:before { content: 'marker  ' ; font-size: 100% ;}
+.ps_mod:before { content: 'modifier  ' ; font-size: 100% ;}
+.ps_n:before { content: 'noun  ' ; font-size: 100% ;}
+.ps_neg:before { content: 'negative  ' ; font-size: 100% ;}
+.ps_neg_ext:before { content: 'negative existential  ' ; font-size: 100% ;}
+.ps_num:before { content: 'number  ' ; font-size: 100% ;}
+.ps_ord_num:before { content: 'ordinal number  ' ; font-size: 100% ;}
+.ps_part:before { content: 'participle  ' ; font-size: 100% ;}
+.ps_pfx:before { content: 'prefix  ' ; font-size: 100% ;}
+.ps_pron:before { content: 'pronoun  ' ; font-size: 100% ;}
+.ps_quant:before { content: 'quantifier  ' ; font-size: 100% ;}
+.ps_rhet:before { content: 'rhetorical  ' ; font-size: 100% ;}
+.ps_rlr:before { content: 'relator  ' ; font-size: 100% ;}
+.ps_sfx:before { content: 'suffix  ' ; font-size: 100% ;}
+.ps_tm:before { content: 'time  ' ; font-size: 100% ;}
+.ps_tm_mk:before { content: 'time marker  ' ; font-size: 100% ;}
+.ps_v:before { content: 'verb  ' ; font-size: 100% ;}
+
+/* agn   */
+.ps_pers_prn:before { content: 'personal pronoun ' ; font-size: 100% ;}
+.ps_interj:before { content: 'interjection ' ; font-size: 100% ;}
+.ps_tag_ques:before { content: 'tag question  ' ; font-size: 100% ;}
+.ps_prop_n:before { content: 'proper noun ' ; font-size: 100% ;}
+.ps_n:before { content: 'noun  ' ; font-size: 100% ;}
+.ps_v:before { content: 'verb  ' ; font-size: 100% ;}
+.ps_vi:before { content: 'intransitive verb  ' ; font-size: 100% ;}
+.ps_vt:before { content: 'transitive verb  ' ; font-size: 100% ;}
+.ps_expr:before { content: 'expression  ' ; font-size: 100% ;}
+.ps_vstat:before { content: 'stative verb  ' ; font-size: 100% ;}
+.ps_stat:before { content: 'stative  ' ; font-size: 100% ;}
+.ps_adj:before { content: 'adjective  ' ; font-size: 100% ;}
+.ps_adj_adv:before { content: 'adjective, adverb  ' ; font-size: 100% ;}
+.ps_loc:before { content: 'location  ' ; font-size: 100% ;}
+.ps_v_aff:before { content: 'verb affix  ' ; font-size: 100% ;}
+.ps_conj:before { content: 'conjunction  ' ; font-size: 100% ;}
+.ps_ptl:before { content: 'particle  ' ; font-size: 100% ;}
+.ps_n_adj:before { content: 'noun, adjective  ' ; font-size: 100% ;}
+.ps_adv:before { content: 'adverb  ' ; font-size: 100% ;}
+.ps_pl_n:before { content: 'plural noun  ' ; font-size: 100% ;}
+.ps_nom:before { content: 'nominalizer  ' ; font-size: 100% ;}
+.ps_pl_n_aff:before { content: 'plural noun affix  ' ; font-size: 100% ;}
+.ps_neg:before { content: 'negator  ' ; font-size: 100% ;}
+.ps_n_adv:before { content: 'noun, adverb  ' ; font-size: 100% ;}
+.ps_noun_phrase_mkr:before { content: 'noun phrase marker  ' ; font-size: 100% ;}
+.ps_lkr:before { content: 'linker  ' ; font-size: 100% ;}
+.ps_rel_prn:before { content: 'relative pronoun  ' ; font-size: 100% ;}
+.ps_compl:before { content: 'complementizer  ' ; font-size: 100% ;}
+.ps_interr:before { content: 'interrogative  ' ; font-size: 100% ;}
+.ps_dem_prn:before { content: 'demonstrative pronoun  ' ; font-size: 100% ;}
+.ps_deictic:before { content: 'deictic  ' ; font-size: 100% ;}
+.ps_invertor:before { content: 'invertor  ' ; font-size: 100% ;}
+.ps_n_loc:before { content: 'noun, location  ' ; font-size: 100% ;}
+.ps_adj_n:before { content: 'adjective, noun  ' ; font-size: 100% ;}
+.ps_pl_aff:before { content: 'plural affix  ' ; font-size: 100% ;}
+.ps_adj_aff:before { content: 'adjective affix  ' ; font-size: 100% ;}
+.ps_n_infix:before { content: 'noun infix  ' ; font-size: 100% ;}
+.ps_ptl_adv:before { content: 'particle, adverb  ' ; font-size: 100% ;}
+.ps_pl_pers_mkr:before { content: 'plural personal marker  ' ; font-size: 100% ;}
+.ps_interr_pl_prn:before { content: 'interrogative plural pronoun  ' ; font-size: 100% ;}
+.ps_card_num:before { content: 'cardinal number  ' ; font-size: 100% ;}
+.ps_ord_num:before { content: 'ordinal number ' ; font-size: 100% ;}
+.ps_dist_num:before { content: 'distributive number  ' ; font-size: 100% ;}
+.ps_num:before { content: 'number  ' ; font-size: 100% ;}
+.ps_interr_v:before { content: 'interrogative verb  ' ; font-size: 100% ;}
+.ps_v_infix:before { content: 'verb infix  ' ; font-size: 100% ;}
+.ps_coll_aff:before { content: 'collective affix ' ; font-size: 100% ;}
+.ps_adv_adj:before { content: 'adverb, adjective  ' ; font-size: 100% ;}
+.ps_vi_stat:before { content: 'intransitive verb, stative  ' ; font-size: 100% ;}
+.ps_adv_aff:before { content: 'adverb affix ' ; font-size: 100% ;}
+.ps_n_v:before { content: 'noun, verb  ' ; font-size: 100% ;}
+.ps_existential:before { content: 'existential  ' ; font-size: 100% ;}
+.ps_possessive:before { content: 'possessive  ' ; font-size: 100% ;}
+.ps_sg_pers_mkr:before { content: 'singular ppersonal marker  ' ; font-size: 100% ;}
+.ps_interr_prn:before { content: 'interrogative pronoun  ' ; font-size: 100% ;}
+.ps_oblique_marker:before { content: 'oblique marker  ' ; font-size: 100% ;}
+.ps_direction_aff:before { content: 'direction affix ' ; font-size: 100% ;}
+.ps_adj_loc:before { content: 'adjective, loc  ' ; font-size: 100% ;}
+.ps_redup:before { content: 'redup  ' ; font-size: 100% ;}
+.ps_pl_adj:before { content: 'plural adj  ' ; font-size: 100% ;}
+.ps_superlative_adj:before { content: 'superlative adjective  ' ; font-size: 100% ;}
+.ps_indefinite_prn:before { content: 'indefinite pronoun  ' ; font-size: 100% ;}
+.ps_gen_mkr:before { content: 'genetive marker  ' ; font-size: 100% ;}
+.ps_dist_num_prefix:before { content: 'distributive number prefix  ' ; font-size: 100% ;}
+.ps_num_aff:before { content: 'number affix ' ; font-size: 100% ;}
+.ps_pl_nom:before { content: 'plural nominalizer  ' ; font-size: 100% ;}
+.ps_ord_num_prefix:before { content: 'ordinal number prefix  ' ; font-size: 100% ;}
+
+.oc_A:before {content:'Actor '; font-size: 100% ;}
+.oc_A_U:before {content:'Actor/Undergoer '; font-size: 100% ;}
+.oc_U_:before {content:'Undergoer '; font-size: 100% ;}
+.oc_U:before {content:'Undergoer '; font-size: 100% ;}
+.oc_U_G:before {content:'Undergoer/Goal '; font-size: 100% ;}
+.oc_U_I:before {content:'Undergoer/Instrument '; font-size: 100% ;}
+.oc_G:before {content:'Goal '; font-size: 100% ;}
+.oc_G_B:before {content:'Goal/Beneficiary '; font-size: 100% ;}
+.oc_G_L:before {content:'Goal/Location '; font-size: 100% ;}
+.oc_I:before {content:'Instrument '; font-size: 100% ;}
+.oc_B:before {content:'Beneficiary '; font-size: 100% ;}
+.oc_R:before {content:'Referent '; font-size: 100% ;}
+.oi:before {content:' '}
+.op:before {content: ', Plural '}
+.or:before {content: ', Reduplication '}

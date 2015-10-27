@@ -1,0 +1,114 @@
+﻿.radio {
+	float: right;
+	margin-right: 10px;
+}
+
+body {
+	font-size: 12pt;
+	background-color: white;
+}
+
+#header, #footer {
+	float: left;
+	min-width: 100%;
+	background: white;
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 2.5em;
+	margin-top: -2.5em;
+}
+
+#content {
+	padding-bottom: 2.5em;
+	min-height: 360px;
+}
+
+.dropdownWord {
+	font-size: 1em;
+}
+
+.dropdownDefinition {
+	font-size: 0.7em;
+}
+
+#lsWords {
+	margin: 0px -4px 0px -4px;
+}
+
+
+.ui-panel-inner {
+	padding:2px 4px 2px 4px;
+}
+
+.ui-header .ui-title {
+		margin-left: 5px;
+		margin-right: 5px;
+}
+
+
+.no-select {
+    border: 1px solid       #222;
+    background:             #333333;
+    font-weight: bold;
+    color:                     #fff;
+    text-shadow: 0 -1px 1px #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #555), to( #333));
+    background-image: -webkit-linear-gradient(#555, #333);
+    background-image:    -moz-linear-gradient(#555, #333);
+    background-image:     -ms-linear-gradient(#555, #333);
+    background-image:      -o-linear-gradient(#555, #333);
+    background-image:         linear-gradient(#555, #333);
+}
+
+.glow {
+    -webkit-box-shadow: inset 0 0 30px #6facd5;
+    -moz-box-shadow: inset 0 0 30px #6facd5;
+    box-shadow: inset 0 0 30px #6facd5;
+}
+
+.letter {
+	/*padding-right: 20px;*/
+}
+
+.count {
+	font-size: 0.7em;
+	color: silver;
+	float:right;
+}
+
+.right {
+	float:right;
+	padding-right:35px;
+}
+
+
+td {
+	padding: 5px 10px 5px 5px;
+}
+
+table, th, td
+{
+border: 1px solid silver;
+}
+
+table {
+	font-size: 0.8em;
+	margin: 10px 0 10px 0;
+	border-collapse:collapse;
+}
+
+
+.headrow {
+	font-weight:bold;
+}
+
+.header {
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	margin: .6em .2em .8em .2em;
+}

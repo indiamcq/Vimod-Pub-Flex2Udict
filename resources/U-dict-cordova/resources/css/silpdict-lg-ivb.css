@@ -1,0 +1,392 @@
+/* CSS Document */
+body {
+	font-family: Verdana,sans-serif;
+}
+
+.copyright {
+	color: lightgray;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 30px 4px 10px 4px;
+	/*border-top: 1px solid lightgray;
+	border-top-right-radius: 8px;*/
+}
+
+
+.psGroup, .rsGroup, reGroup, .exGroup, .itGroup, .iiGroup, .ivGroup, .es, .eg, .ec {
+	margin-top: 6pt;
+}
+
+.msGroup, .odeGroup, oidGroup, .oseGroup {
+	margin-top: 12pt;
+}
+
+.psGroup, .odeGroup, .oidGroup, .oseGroup {
+	margin-left: 3%;
+}
+
+.glGroup {
+	margin-top: 3pt;
+}
+
+.reGroup, .raGroup, scGroup, .ar, .di, .ds, .mr, .dj, .de, .dch, .dc, .rf, .ad {
+	display: inline;
+}
+
+.itGroup, .iiGroup, .ivGroup {
+	display: inline-block;
+}
+.itGroup, .iiGroup, .ivGroup, .ode .d, .oid .d, .ose .d, .mb .d {
+	margin-right: 1em;
+}
+
+.ar, .di, .ds, .mr, .dj, .de, .dch, .dc {
+	margin-left: 1em;
+}
+
+
+.lxGroup {
+	margin: 0 1% 0 1%;
+	clear: right;
+	padding: 0 0 3em 5px;
+	position: relative;
+	/*top: -15px;*/
+}
+
+
+.ps {
+	margin-left: -3%;
+}
+
+.ps {
+	display: inline;
+}
+
+.ps {
+	font-style: italic;
+}
+.ps .d {
+	font-size: 1.4em;
+}
+
+.ode, .oid, .ose {
+	font-size: 1em;
+}
+.ode .d, .oid .d, .ose .d {
+	font-size: 1.7em;
+}
+
+.lx {
+	font-size: 2em;
+}
+
+.oi, .gl, .es .d {
+	display: block;
+}
+
+.oi {
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 0 0em;
+}
+
+	.oi:before {
+		font-size: 50%;
+	}
+
+
+.ex a {
+	color: darkslategray;
+}
+
+
+a {
+	text-decoration: none;
+	color: #005b99;
+	cursor: pointer;
+}
+
+
+
+.se {
+	display: inline;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.gp {
+	visibility: hidden;
+}
+
+
+	.gl .d {
+		font-size: 1.4em;
+	}
+/* Tagalog */
+.g2, .it {
+	font-style: oblique;
+	margin: 0 0 0 4px;
+	font-size: 100%;
+}
+
+
+
+.mo {
+	margin: 6pt 1em 0 0;
+	display: inline-block;
+}
+
+
+/* Ilocano */
+.g3, .ii {
+	margin: 0 0 0 4px;
+	font-size: 100%;
+}
+
+.iv {
+	margin: 0 0 0 4px;
+	font-size: 100%;
+}
+
+.ex {
+	margin: 0 0 0 0;
+	font-size: 1.1em;
+}
+
+.tr {
+	margin: 0 0 0 0;
+}
+
+.co {
+}
+
+	.co .d {
+		font-size: 120%;
+	}
+
+.ver {
+	font-size: 70%;
+}
+
+	.ver a {
+		font-size: 140%;
+	}
+
+.ro, .rs, .ra, .re, .rg, .rm, mr, ls {
+	display: inline;
+	font-size: 1.1em;
+	margin: 0 0 0 0;
+}
+
+
+
+.label {
+	display: inline;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 70%;
+	margin: 0 8px 0 1em;
+}
+
+.rt .pre {
+	margin: 0 6pt 0 0;
+}
+
+.rt .post {
+	margin: 0 0 0 6pt;
+}
+
+.rt {
+	font-weight: bold;
+}
+
+span.ps span.label {
+	font-size: 1em;
+}
+
+.charbold {
+	display: inline;
+	background-color: #F8F4E8;
+}
+
+.charitalic {
+	display: inline;
+	font-style: italic;
+}
+
+.charitbold {
+	display: inline;
+	font-style: italic;
+	background-color: rgb(255,255,153);
+}
+
+.mb {
+	display: inline;
+	font-size: 1em;
+	margin: 0 0 0 1em;
+}
+
+
+sub {
+	font-size: 0.6em;
+	color: silver;
+}
+
+.find {
+	background-color: white;
+	margin: 5px;
+}
+
+body.find_sel {
+	background-color: rgb(255,255,200);
+	margin: 5px;
+}
+
+.index_sel {
+	background-color: rgb(255,255,214);
+	margin: 5px;
+}
+
+
+
+
+/* from */
+
+	/*.rf .d {
+		margin: 0 2px 0 2px;
+	}*/
+
+/* from Ivatan */
+
+	.dc .d {
+		margin: 0 2px 0 2px;
+	}
+
+	/* from Chinese*/
+
+/* from English */
+	.de .d {
+		display: inline;
+		margin: 0 2px 0 2px;
+	}
+
+	/* from Japanese */
+
+/* from Spanish */
+	.ds .d {
+		margin: 0 2px 0 2px;
+	}
+
+	/* from Ilokano */
+	.di .d {
+		color: green;
+		margin: 0 2px 0 2px;
+	}
+
+	/* Archaic */
+
+.ar .d {
+	margin: 0 2px 0 0;
+}
+
+/* variant of */
+.mr {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ??? */
+.ldGroup {
+	margin: 0 0 0 0;
+}
+
+/* ??? */
+.liGroup {
+	margin: 0 0 0 0;
+}
+/* ??? */
+.lsGroup {
+	margin: 6pt 0 6pt 0;
+	padding: 0 0 0 0;
+}
+.lcGroup .psGroup .co .d {
+	font-size: 1.2em;
+}
+/* ??? */
+.lsGroup {
+	margin: 0 0 0 -1em;
+}
+.li, .ld {
+	display: block;
+	font-weight: bold;
+	margin: 10px 0 0 0em;
+}
+
+.li .d, .ld .d {
+	font-size: 140%;
+}
+/* ??? */
+.pn {
+	display: inline;
+	font-style: italic;
+	margin: 0 0 0 1em;
+}
+
+/* ??? */
+.va {
+	display: inline;
+	font-weight: bold;
+	margin: 0 0 0 1em;
+}
+/* ??? */
+.lc {
+	display: block;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 6pt 0 0 2px;
+}
+/* ??? */
+/* Bolinao */
+.df {
+	display: block;
+	font-weight: bold;
+	margin: 0 0 0 1em;
+}
+
+.ls {
+	display: block;
+	margin: 2pt 0 0pt 0em;
+	font-weight: bold;
+}
+
+
+
+
+.bar {
+	background: #005b99;
+	padding: 4px 4px 4px 4px;
+	border-bottom: 2px solid #6699cc;
+	border-bottom-left-radius: 8px;
+}
+
+.logo img {
+	height: 60px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: middle;
+	float: left;
+}
+
+.title {
+	color: white;
+	vertical-align: middle;
+	font-size: 25px;
+}

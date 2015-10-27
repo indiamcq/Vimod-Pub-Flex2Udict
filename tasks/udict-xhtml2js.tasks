@@ -1,0 +1,7 @@
+# u-dict xhtml2js.tasks
+set startfile                 ;inputfile "%source%"
+make func                     ;xslt flex-xhtml2id-func
+rename and copy to place      ;outputfile "scripts\xslt\flex-func.xslt"
+set startfile                 ;inputfile "%source%"
+make data.js                  ;xslt flex-xhtml2js
+rename output                 ;outputfile "%projectpath%\data.js"

@@ -1,0 +1,9 @@
+# A tasks file for Vimod Pub http://projects.palaso.org/projects/vimod-pub
+# copy resources
+# config modifications for Phonegap 3.3+
+get project var               ;tasklist project.tasks
+copy files                    ;copyresources "resources\U-dict-cordova\resources\*.*" "%projectpath%\%buildsystem%\www\"
+copy data file                ;command "copy '%projectpath%\data.js' '%projectpath%\%buildsystem%\www\scripts\data.js'"
+input file                    ;inputfile "%projectpath%\%buildsystem%\www\config.xml"
+#modify config.xml       ;xslt android-phonegap-config-changes "revurl=%revurl% appname=%appname% description='Simple Scripture reader for Android' puburl='%puburl%' pubemail=%pubemail%' pubgroup=%pubgroup%'"
+#replace original file   ;outputfile "%projectpath%\%buildsystem%\www\config.xml"

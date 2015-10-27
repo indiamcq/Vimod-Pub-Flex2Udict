@@ -1,0 +1,53 @@
+# project.tasks
+#run your first task           ;command echo "Hello World!"
+iso                                     ;var iso "xxx"
+pcode                                   ;var pcode "%iso%-dict"
+#in put                                  ;var confdict "%projectpath%\ifk-conf-dict.xhtml"
+language                                ;var langname "Language"
+set voltitle                            ;var title "Language-English Dictionary"
+app title                               ;var app_name "Language Dictionary"
+# alt copyright                         ;var altcopyright ""
+reverseurl                              ;var revurl org.sil.dict.%iso%
+letters                                 ;var vern-letters_list "a b c d e f g h i j k l m n o p q r s t u v w x y z" 
+set startfile                           ;inputfile '%projectpath%\%iso%.xml' 
+sourcefile                              ;var liftfile "%projectpath%\%iso%.lift"
+mdf xml file                            ;var xmlfile "%projectpath%\%iso%.xml"
+vernacular                              ;var vernacular "%iso%"
+nationl lang code                       ;var national "tl"
+regional lang code                      ;var regional ""
+regional2 lang code                     ;var regional2 ""
+regional3 lang code                     ;var regional3 ""
+# groupings for html generation
+                                        ;var prefile "/lexicon/lx"
+                                        ;var preurl "../lexicon/lx"
+                                        ;var groupsdivstext "psGroup glGroup snGroup vaGroup exGroup iiGroup itGroup ivGroup lsGroup liGroup lcGroup msGroup odeGroup oidGroup oseGroup raGroup rtGroup reGroup rfGroup rgGroup rsGroup scGroup ocGroup"
+                                        ;var inlinespanstext "charbold charitalic charbolditalic strong oi em op rf ad"
+                                        ;var sensehomtext "ra re rg rs rt"
+                                        ;var groupedsensehomlist "ra re rg rs rt"
+                                        ;var omittext "no ie"
+                                        ;var omitfields-html_list "no"
+                                        ;var omitfields-js_list "ie"
+                                        ;var translateabreviations "ps oc"
+                                        ;var abreviationsinlinelist "oc"
+                                        ;var serialnodesnothom "ii iv it"
+                                        ;var spacebeforehom no
+# the following rarely need editing
+build folder                            ;var buildsystem cordova
+remove space                            ;var appname0 "%title: =%"
+remove hyphen                           ;var appname "%appname0:-=%"
+keystore to use                         ;var keystore dict.key
+key alias                               ;var keyalias dict
+
+# the following do not need changing
+default path for key store              ;var defaultkeystorepath "%cd%\Android-keystore"
+keystore                                ;var keystorefile "%defaultkeystorepath%\%keystore%"
+set build path                          ;var buildpath "%projectpath%\%buildsystem%\www"
+android build path                      ;var androidantbuildpath "%projectpath%\%buildsystem%\platforms\android"
+ant propertis file                      ;var antproperties "%androidantbuildpath%\ant.properties
+# u-dict 
+icons                                   ;var iconresourcepath resources\icons\dictionary
+filename                                ;var iconrespartname Dictionary-icon
+app icon name                           ;var appicon dict
+get passwords                           ;tasklist passwords.tasks
+make xslt                               ;projectxslt
+

@@ -1,0 +1,144 @@
+/* CSS Document 
+ISO.css
+Style the dictionary content
+*/
+
+/* Labels for fields */
+:before, :after { font-weight:normal; font-style: italic; font-size: 0.8em;}
+.exGroup:before {content: 'Example sentence'}
+.d {margin: 0 0 0 0}
+.ms:before { content: 'Sense '}
+.ps:before { content: ''}
+.gl:before { content: ''}
+.glGroup:before { content: 'Meaning'}
+.subject:before {content: 'Subject: '}
+.object:before {content: 'Object: '}
+.ld:after {content: ' Derivative'}
+.reGroup:before { content: 'Related word '}
+.re:after { content: ', '}
+.rsGroup:before { content: 'Synonym '}
+.rs:after { content: ', '}
+.raGroup:before { content: 'Antonym '}
+.ra:after { content: ', '}
+.scGroup:before { content: '(See appendix '}
+.scGroup:after { content: ') '} 
+.sc:after { content: '; '}
+.ec:before { content: "Cultural Note";}
+.ec .d { margin: 0 0 0 0.8em;}
+.co:before { content: "Meaning ";}
+.rtGroup:before { content: "(See ";}
+.rtGroup:after { content: ' for table) '}
+.rt:after { content: ', '}
+.ii:after { content: ', '}
+.rgGroup:before { content: 'See also '}
+.lsGroup:before { content: 'Saying '}
+.li:after { content: ' Idiom'}
+.va:before { content: 'Variant'}
+.va .d { margin: 0 0 0 0.5em;}
+.senseafter:after { content: ' Sense '}
+
+.mr:before { content: 'Alternate form'}
+.mr .d {margin: 0 0 0 0.3em}
+
+.oi:before { content: 'Inflected form'}
+.oi .d {margin: 0 0 0 0.3em}
+
+.iiGroup:before {content: 'Ilokano   '}
+.itGroup:before {content: 'Filipino   '}
+.ivGroup:before {content: 'Ivatan   '}
+.dc .d:before {content: 'from Ivatan '}
+.dc:before {content: '(';font-size: 0.8em;}
+.dc:after {content: ')';font-size: 0.8em;}
+.di .d:before {content: 'from Ilokano '}
+.di:before {content: '(';font-size: 0.8em;}  
+.di:after {content: ')';font-size: 0.8em;}
+.dj .d:before {content: 'from Japanese '}
+.dj:before {content: '(';font-size: 0.8em;}
+.dj:after {content: ')';font-size: 0.8em;}
+.de .d:before {content: 'from English '}
+.de:before {content: '(';font-size: 0.8em;}
+.de:after {content: ')';font-size: 0.8em;}
+.ds .d:before {content: 'from Spanish '}
+.ds:before {content: '(';font-size: 0.8em;}
+.ds:after {content: ')';font-size: 0.8em;}
+.dch .d:before {content: 'from Chinese '}
+.dch:before {content: '(';font-size: 0.8em;}
+.dch:after {content: ')';font-size: 0.8em;}
+
+
+.eg:before { content: 'Grammar'}
+.eg .d { margin: 0 0 0 0.8em;}
+.es:before { content: 'Semantics'}
+
+.ar .d:before {content: ' Archaic'; }
+.ar:before {content: '(';font-size: 0.8em;}
+.ar:after {content: ')';font-size: 0.8em;}
+.mb .d:before { content: 'Variant of '}
+.mb:before {content: '(';font-size: 0.8em;}
+.mb:after {content: ')';font-size: 0.8em;}
+.mr .d:before { content: 'Variant of '}
+.mr:before {content: '(';font-size: 0.8em;}
+.mr:after {content: ')';font-size: 0.8em;}
+
+.mo:before { content: 'Morphophonemics ';}
+.mo .d {margin: 0 0 0 0.3em}
+
+/*.rfGroup:before {content: '('; font-size: 0.8em;}
+.rfGroup:after {content: ')'; font-size: 0.8em;}*/
+
+.rf .d:before {font-size: 0.8em; content: 'from '}
+/*.rf:before {content: '('; font-size: 0.8em;}
+.rf:after {content: ')'; font-size: 0.8em;}*/
+.ad .d:before {content: ' + '; font-size: 0.8em;}
+
+.oa:before			{ content: ''}
+.ode:before			{content: 'Derivative'; font-size: 1em; margin: 0 1em 0 -3%;}
+.ose:before			{content: 'Saying'; font-size: 1em; margin: 0 1em 0 -3%;}
+.oid:before			{content: 'Idiom'; font-size: 1em; margin: 0 1em 0 -3%;}
+
+
+.ps_afx:before { content: 'affix  ' ; font-size: 1em;}
+.ps_cntc:before { content: 'contraction  ' ; font-size: 1em;}
+.ps_cntrc:before { content: 'contraction  ' ; font-size: 1em;}
+.ps_cntrc_neg:before { content: 'contraction negative  ' ; font-size: 1em;}
+.ps_com:before { content: 'compound  ' ; font-size: 1em;}
+.ps_comm:before { content: 'command  ' ; font-size: 1em;}
+.ps_dei:before { content: 'deictic  ' ; font-size: 1em;}
+.ps_excl:before { content: 'exclamation  ' ; font-size: 1em;}
+.ps_exp:before { content: 'expression  ' ; font-size: 1em;}
+.ps_ext:before { content: 'existential  ' ; font-size: 1em;}
+.ps_intg:before { content: 'interrogative particle  ' ; font-size: 1em;}
+.ps_lk:before { content: 'linker  ' ; font-size: 1em;}
+.ps_lmt:before { content: 'limitizer  ' ; font-size: 1em;}
+.ps_mk:before { content: 'marker  ' ; font-size: 1em;}
+.ps_mod:before { content: 'modifier  ' ; font-size: 1em;}
+.ps_n:before { content: 'noun  ' ; font-size: 1em;}
+.ps_neg:before { content: 'negative  ' ; font-size: 1em;}
+.ps_neg_ext:before { content: 'negative existential  ' ; font-size: 1em;}
+.ps_num:before { content: 'number  ' ; font-size: 1em;}
+.ps_ord_num:before { content: 'ordinal number  ' ; font-size: 1em;}
+.ps_part:before { content: 'participle  ' ; font-size: 1em;}
+.ps_pfx:before { content: 'prefix  ' ; font-size: 1em;}
+.ps_pron:before { content: 'pronoun  ' ; font-size: 1em;}
+.ps_quant:before { content: 'quantifier  ' ; font-size: 1em;}
+.ps_rhet:before { content: 'rhetorical  ' ; font-size: 1em;}
+.ps_rlr:before { content: 'relator  ' ; font-size: 1em;}
+.ps_sfx:before { content: 'suffix  ' ; font-size: 1em;}
+.ps_tm:before { content: 'time  ' ; font-size: 1em;}
+.ps_tm_mk:before { content: 'time marker  ' ; font-size: 1em;}
+.ps_v:before { content: 'verb  ' ; font-size: 1em;}
+
+    
+/* keep .last:after at the end of css */
+.last:after { content: ' '}
+
+
+.highlight {
+	font-weight: bolder;
+	text-decoration:underline;
+}
+
+#word.d, #word .d {
+	font-weight: bolder;
+	text-shadow: 0 0 .1em #f9f9f9, 0 0 .1em #f9f9f9, 0 0 .15em #f9f9f9, 0 .03em .18em #7d7d7d;
+}

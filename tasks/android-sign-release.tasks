@@ -1,0 +1,8 @@
+# android-sign-release.tasks
+# depreciated as  phonegappostbuildfixes.tasks  adds signing to ant release process
+get var                       ;tasklist project.tasks
+tell plugin no files          ;var outputdefault "%androidantbuildpath%\bin\%appname%.apk"
+
+# sign apk                      ;command "%jarsigner% -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore '%keystore%' '%androidantbuildpath%\bin\%appname%-release-unsigned.apk' %keyalias%"
+validate apk                  ;command "%jarsigner% -verify '%androidantbuildpath%\bin\%appname%-release.apk'"                              ;var outfile "%androidantbuildpath%\bin\%appname%-release-unsigned.apk"
+#output                        ;outputfile "%androidantbuildpath%\%appname%.apk"
